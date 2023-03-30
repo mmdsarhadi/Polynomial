@@ -4,7 +4,7 @@
 		int Degree;
 		int coef[] = new int[maxDegree + 1];
 
-		boolean addTerm(int e, int c) { // O(1)
+		boolean addTerm(int e, int c) { 
 			if (e > maxDegree)
 				return false;
 			coef[e] += c;
